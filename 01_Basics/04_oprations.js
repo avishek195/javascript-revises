@@ -24,3 +24,15 @@
 // let x = 3;
 // const y = ++x;
 // x is 4; y is 4
+
+//Avoid these conditions
+
+// console.log(null > 0); // false
+// console.log(null == 0); // false
+// console.log(null >= 0);// true
+// console.log(null === 0); // false
+
+// console.log(undefined > 0); // false
+// console.log(undefined == 0); // false
+// console.log(undefined >= 0); // false
+// console.log(undefined === 0); // false
