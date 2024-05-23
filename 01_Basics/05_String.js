@@ -1,7 +1,7 @@
-let userName = "Avishek";
-let sameName = userName;
-let anotherName = new String("Avishek"); // check this into windows console for better understanding.
-let sameAnotherName = anotherName;
+// let userName = "Avishek";
+// let sameName = userName;
+// let anotherName = new String("Avishek"); // check this into windows console for better understanding.
+// let sameAnotherName = anotherName;
 
 // console.log(userName === sameName); //true
 // console.log(sameAnotherName === anotherName); //true
@@ -31,10 +31,20 @@ let sameAnotherName = anotherName;
 
 /*   ---------------------------------------------------------------   */
 
-// Strings check
+// Strings Methods...
 
-const checkString = function check(str1, str2) {
-  return str1.toLowerCase() === str2.toLowerCase();
-};
+//1 substring
+// let userName = "Avishek";
+// console.log(userName.substring(0, 7)); // negative value is not allowed
 
-console.log(checkString("23", "53"));
+//2 slice
+// let userName = "Avishek";
+// console.log(userName.slice(-100, 7)); // negative value is allowed
+
+//3 includes
+
+// let username = "Avishek";
+
+// console.log(username.includes("Avi"));// true;
+
+//4 etc.
